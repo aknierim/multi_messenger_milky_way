@@ -111,12 +111,12 @@ def plot_skymaps():
 
     title = [
         "Haslam et al. (408 MHz)",
-        "LAB HI Survey",
+        "LAB HI Survey (Atomic Hydrogen, 21cm)",
         "Effelsberg/Parkes (2.4-2.7 GHz)",
-        "Molecular Hydrogen",
+        "Dame et al. (Molecular Hydrogen)",
         "IRIS (100, 60, 12 Microns IR)",
         "DIRBE (3.5, 2.5, 1.25 Microns NIR)",
-        "H-Alpha (WHAM, VTSS and SHASSA)",
+        "WHAM, VTSS and SHASSA (H-Alpha)",
         "GAIA (Optical)",
         "Rosat (X-ray)",
         "Fermi (Gamma)",
