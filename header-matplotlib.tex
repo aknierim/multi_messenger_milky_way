@@ -1,0 +1,43 @@
+\usepackage{fontspec}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{nicefrac}
+\usepackage{xfrac}
+
+\usepackage{xspace}
+
+% font settings
+\setmainfont{FiraSans}
+
+\usepackage[
+  math-style=ISO,    % ┐
+  bold-style=ISO,    % │
+  sans-style=italic, % │ follow ISO standard
+  nabla=upright,     % │
+  partial=upright,   % ┘
+  warnings-off={           % ┐
+    mathtools-colon,       % │ disable some warnings
+    mathtools-overbracket, % │
+  },                       % ┘
+]{unicode-math}
+
+% math fonts
+\setmathfont{Fira Math}
+\setmathfont{XITS Math}[range={scr, bfscr}]
+\setmathfont{XITS Math}[range={cal, bfcal}, StylisticSet=1]
+
+% settings for decimals and units
+\usepackage[
+  separate-uncertainty=true, % errors always with \pm
+  per-mode=reciprocal,       % ^-1 for reciprocal/inverse units
+]{siunitx}
+
+\DeclareSIUnit\deg{deg}
+
+\usepackage[
+  version=4,
+  math-greek=default,
+  text-greek=default,
+]{mhchem}
