@@ -9,7 +9,6 @@ on:
   pull_request:
 
 env:
-  TEXLIVE_VERSION: 2023
   TERM: xterm
 
 jobs:
@@ -31,7 +30,7 @@ jobs:
         run: |
           sudo apt-get install --yes poppler-utils
           pip install https://github.com/maxnoe/texlive-batch-installation/archive/v0.3.2.tar.gz
-          python -m install_texlive -p $HOME/texlive -t $TEXLIVE_VERSION --collections='-a' --package-file tex-packages.txt --update -v
+          python -m install_texlive -p $HOME/texlive -t 2023 --collections='-a' --package-file tex-packages.txt --update -v
 
           # add to path for following steps
           echo "$HOME/texlive/$TEXLIVE_VERSION/bin/x86_64-linux" >> $GITHUB_PATH
