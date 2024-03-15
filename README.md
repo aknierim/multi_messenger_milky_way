@@ -28,7 +28,7 @@ The plot can be found in the build directory.
 
 ## Data
 
-Data for each subplot is taken from the following Surveys:
+Data for each subplot is taken from the following Surveys and is in the [HEALPix](https://healpix.sourceforge.io/) FITS data format:
 - [2014 Reprocessed Haslam 408 MHz Survey](https://lambda.gsfc.nasa.gov/product/foreground/fg_LAB_HI_Survey_info.html): <p>Remazeilles et al.
 ***"An improved source-subtracted and destriped 408 MHz all-sky map"***, MNRAS 451, 4311 (2015).</p>
 - [LAB Survey](https://lambda.gsfc.nasa.gov/product/foreground/fg_LAB_HI_Survey_info.html): <p>Kalbera et al. ***"Leiden/Argentine/Bonn (LAB) Survey of Galactic HI"***, Astron. Astrophys., 440, 775 (2005);</p> <p>Land et al ***"Correlation between galactic HI and the Cosmic Microwave Background"***, arXiv:0706.1703, PRD in print.</p>
