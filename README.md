@@ -5,7 +5,7 @@ that also shows the recent observations of [neutrinos from the galactic plane](h
 
 ![The Milky Way as observed via different messengers/bands.](./multi_messenger.png "Multi-Messenger Milky Way")
 
-Note: The scripts and plot are still a work in progress and as such subject to change.
+**Note**: *The scripts and plot are still a work in progress and as such subject to change.*
 
 
 ## Usage
@@ -29,9 +29,9 @@ The plot can be found in the build directory.
 ## Data
 
 Data for each subplot is taken from the following Surveys and is in the [HEALPix](https://healpix.sourceforge.io/) FITS data format:
-- [2014 Reprocessed Haslam 408 MHz Survey](https://lambda.gsfc.nasa.gov/product/foreground/fg_LAB_HI_Survey_info.html): <p>Remazeilles et al.
+- [2014 Reprocessed Haslam 408 MHz Survey](https://lambda.gsfc.nasa.gov/product/foreground/fg_LAB_HI_Survey_info.html): <p>Remazeilles et al.,
 ***"An improved source-subtracted and destriped 408 MHz all-sky map"***, MNRAS 451, 4311 (2015).</p>
-- [LAB Survey](https://lambda.gsfc.nasa.gov/product/foreground/fg_LAB_HI_Survey_info.html): <p>Kalbera et al. ***"Leiden/Argentine/Bonn (LAB) Survey of Galactic HI"***, Astron. Astrophys., 440, 775 (2005);</p> <p>Land et al ***"Correlation between galactic HI and the Cosmic Microwave Background"***, arXiv:0706.1703, PRD in print.</p>
+- [LAB Survey](https://lambda.gsfc.nasa.gov/product/foreground/fg_LAB_HI_Survey_info.html): <p>Kalbera et al., ***"Leiden/Argentine/Bonn (LAB) Survey of Galactic HI"***, Astron. Astrophys., 440, 775 (2005);</p> <p>Land et al., ***"Correlation between galactic HI and the Cosmic Microwave Background"***, arXiv:0706.1703, PRD in print.</p>
 - [S-PASS 2.3 GHz Survey](https://lambda.gsfc.nasa.gov/product/foreground/fg_s_pass_info.html): <p>Caretti et al., ***"S-band Polarization All Sky Survey (S-PASS): survey description and maps"***, arXiv:1903.09420.</p>
 - [Effelsberg Radio Continuum Survey](http://cade.irap.omp.eu/dokuwiki/doku.php?id=effelsberg): <p>Reich et al., ***"A radio continuum survey of the galactic plane at 11 cm wavelength. I. The area 357.4 < or = L < or = 76, - 1.5 < or = B < or = 1.5."***, A&A, Suppl. Ser., Vol. 58, pp. 197-248 (1984);</p> <p>Reich et al., ***"A radio continuum survey of the Galactic Plane at 11 cm wavelength. II. The area 358deg <= L <= 76deg, -5deg <= B <= 5deg"***, A&A, Suppl. Ser., Vol. 85, pp. 633-690 (1990);</p> <p>Fürst et al., ***"A radio continuum survey of the Galactic Plane at 11 cm wavelength. III. The area 76deg <= L <= 240deg, -5deg <= B <= 5deg"***, A&A, Suppl. Ser., Vol. 85, pp. 691-803 (1990).</p>
 - [Dame et al. 2001 Velocity Integrated CO Map](https://lambda.gsfc.nasa.gov/product/foreground/fg_wco_info.html): <p>Dame et al., ***"The Milky Way in Molecular Clouds: A New Complete CO Survey"***, The Astrophysical Journal, Vol. 547, Issue 2, pp. 792-813 (2001).</p>
