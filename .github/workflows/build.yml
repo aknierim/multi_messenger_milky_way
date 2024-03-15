@@ -1,0 +1,61 @@
+name: Build Multi-Messenger Plot
+on: [push]
+
+env:
+  TEXLIVE_VERSION: 2023
+  TERM: xterm
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        shell: bash -leo pipefail {0}
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: mamba-org/setup-micromamba@v1
+        with:
+          environment-file: environment.yml
+
+      - name: Setup
+        run: |
+          sudo apt-get install --yes poppler-utils
+          pip install https://github.com/maxnoe/texlive-batch-installation/archive/v0.3.2.tar.gz
+          python -m install_texlive -p $HOME/texlive -t $TEXLIVE_VERSION --collections='-a' --package-file tex-packages.txt --update -v
+
+          # add to path for following steps
+          echo "$HOME/texlive/$TEXLIVE_VERSION/bin/x86_64-linux" >> $GITHUB_PATH
+          export PATH="$HOME/texlive/$TEXLIVE_VERSION/bin/x86_64-linux:$PATH"
+          tlmgr install --with-doc tex-overview
+
+          luaotfload-tool --update --force
+
+      - name: Check Setup
+        run: |
+          echo "which python"
+          which python
+          echo "python --version"
+          python --version
+          echo "conda list"
+          conda list
+
+      - name: Build
+        run: |
+          make download
+          make build/multi_messenger.pdf
+
+      - name: Prepare Upload
+        run: |
+          mkdir multi_messenger_plot
+          cp ./build/*.pdf multi_messenger_plot
+          ls -lh multi_messenger_plot
+
+      - uses: actions/upload-artifact@v3
+        name: Upload Plot
+        with:
+          name: Multi Messenger Plot
+          path: multi_messenger_plot/*
+
