@@ -1,0 +1,15 @@
+https://lambda.gsfc.nasa.gov/data/foregrounds/haslam_2014/haslam408_dsds_Remazeilles2014.fits
+https://lambda.gsfc.nasa.gov/data/foregrounds/HI/LAB_fullvel.fits
+https://lambda.gsfc.nasa.gov/data/foregrounds/spass/spass_dr1_1902_healpix_Tb.i.fits
+http://cade.irap.omp.eu/documents/Ancillary/EFFELSBERG/EFFELSBERG_11cm_1_2048.fits
+https://lambda.gsfc.nasa.gov/data/foregrounds/dame_CO/lambda_wco_dht2001.fits
+https://lambda.gsfc.nasa.gov/data/foregrounds/iris/IRIS_nohole_1_1024_v2.fits
+https://lambda.gsfc.nasa.gov/data/foregrounds/iris/IRIS_nohole_3_2048_v2.fits
+https://lambda.gsfc.nasa.gov/data/foregrounds/iris/IRIS_nohole_4_2048_v2.fits
+http://cade.irap.omp.eu/documents/Ancillary/DIRBE/DIRBE_1_256.fits
+http://cade.irap.omp.eu/documents/Ancillary/DIRBE/DIRBE_2_256.fits
+http://cade.irap.omp.eu/documents/Ancillary/DIRBE/DIRBE_3_256.fits
+https://lambda.gsfc.nasa.gov/data/foregrounds/fink_halpha/Halpha_fwhm06_1024.fits
+https://cdn.sci.esa.int/documents/33580/35361/1567215018536-ESA_Gaia_DR2_AllSky_Brightness_Colour_Cartesian_4000x2000.png
+https://www.jb.man.ac.uk/research/cosmos/rosat/RASS_SXRB_R5.fits
+https://icecube.wisc.edu/data-releases/20230424_Observation_of_High-Energy_Neutrinos_from_the_Galactic_Plane.zip
