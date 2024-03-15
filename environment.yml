@@ -1,0 +1,17 @@
+name: multimessenger
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - black
+  - ca-certificates
+  - certifi
+  - healpy=1.16.6
+  - joblib
+  - matplotlib=3.8.0
+  - numpy=1.26.0
+  - pandas=2
+  - pip
+  - rich
+  - requests
+  - scipy=1.11.3
