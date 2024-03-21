@@ -64,7 +64,7 @@ def get_map_view(datafile: Path or str, latra: list=LAT_RA, icecube: bool=False)
 
     map_view = hp.cartview(
         map,
-        coord=["G"],
+        coord=["G"] if not icecube else "CG",
         latra=latra,
         cbar=None,
         title=None,
