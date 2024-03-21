@@ -6,3 +6,11 @@ mathtools
 siunitx
 unicode-math
 xfrac
+latex
+latex-bin
+latexmk
+luacode
+lualatex-math
+luatex
+luatex85
+luatexbase
