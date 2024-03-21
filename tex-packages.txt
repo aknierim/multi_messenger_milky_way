@@ -3,6 +3,8 @@ firamath
 firamath-otf
 fontspec
 mathtools
+amsmath
+amssymb
 siunitx
 unicode-math
 xfrac
