@@ -41,6 +41,6 @@ Data for each subplot is taken from the following Surveys and is in the [HEALPix
 - [GAIA All-Sky Survey](https://sci.esa.int/s/ApPJaGA): <p>***Gaia Data Processing and Analysis Consortium (DPAC)***; A. Moitinho / A. F. Silva / M. Barros / C. Barata, University of Lisbon, Portugal; H. Savietto, Fork Research, Portugal</p>
 - [ROSAT Survey](https://www.jb.man.ac.uk/research/cosmos/rosat/): <p>Snowden et al., ***"ROSAT Survey Diffuse X-Ray Background Maps. II."***, 
 The Astrophysical Journal, Vol. 485, Issue 1, pp. 125-135 (1997).</p>
-- [Fermi LAT All-Sky Survey](https://fermi.gsfc.nasa.gov/ssc/data/access/lat/) (Weekly Photon Files): ***Fermi LAT Collaboration***
+- [Fermi LAT All-Sky Survey](https://fermi.gsfc.nasa.gov/ssc/data/access/lat/) (Weekly Photon Files): <p>***Fermi LAT Collaboration***;</p> <p>Atwood et al., ***"The Large Area Telescope on the Fermi Gamma-Ray Space Telescope Mission"***, The Astrophysical Journal, Vol. 697, p. 1071 (2009).</p>
 - [IceCube Observations of High-Energy Neutrinos From the Galactic Plane](https://icecube.wisc.edu/data-releases/2023/06/observation-of-high-energy-neutrinos-from-the-galactic-plane/): <p>IceCube Collaboration, ***"Observation of high-energy neutrinos from the Galactic plane"***, Science, Vol. 380, Issue 6652, pp. 1338-1343 (2023).
 
