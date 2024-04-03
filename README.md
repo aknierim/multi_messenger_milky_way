@@ -1,7 +1,7 @@
 # Multi-Messenger Milky Way
 
 A plot inspired by NASA's [Multiwavelength Milky Way](https://asd.gsfc.nasa.gov/archive/mwmw/mmw_sci.html) plot,
-that also shows the recent observations of [neutrinos from the galactic plane](https://icecube.wisc.edu/news/press-releases/2023/06/our-galaxy-seen-through-a-new-lens-neutrinos-detected-by-icecube/) by the IceCube Neutrino Observatory. Some updated datasets are included compared to the original NASA plot, notably the Fermi LAT all-sky survey.
+that also shows the recent observations of [neutrinos from the galactic plane](https://icecube.wisc.edu/news/press-releases/2023/06/our-galaxy-seen-through-a-new-lens-neutrinos-detected-by-icecube/) by the IceCube Neutrino Observatory. Some updated datasets are included compared to the original NASA plot, notably the Fermi LAT all-sky survey. The data for the latter is included in the subdirectory `preprocessed_data`, and was preprocessed from `~250 GB` of Fermi LAT data of two years of observation time.
 
 ![The Milky Way as observed via different messengers/bands.](./multi_messenger.png "Multi-Messenger Milky Way")
 
