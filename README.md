@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/772470872.svg)](https://zenodo.org/doi/10.5281/zenodo.11045707)
+
 # Multi-Messenger Milky Way
 
 A plot inspired by NASA's [Multiwavelength Milky Way](https://asd.gsfc.nasa.gov/archive/mwmw/mmw_sci.html) plot,
@@ -44,3 +46,19 @@ The Astrophysical Journal, Vol. 485, Issue 1, pp. 125-135 (1997).</p>
 - [Fermi LAT All-Sky Survey](https://fermi.gsfc.nasa.gov/ssc/data/access/lat/) (Weekly Photon Files): <p>***Fermi LAT Collaboration***;</p> <p>Atwood et al., ***"The Large Area Telescope on the Fermi Gamma-Ray Space Telescope Mission"***, The Astrophysical Journal, Vol. 697, p. 1071 (2009).</p>
 - [IceCube Observations of High-Energy Neutrinos From the Galactic Plane](https://icecube.wisc.edu/data-releases/2023/06/observation-of-high-energy-neutrinos-from-the-galactic-plane/): <p>IceCube Collaboration, ***"Observation of high-energy neutrinos from the Galactic plane"***, Science, Vol. 380, Issue 6652, pp. 1338-1343 (2023).
 
+## Citing This Repository
+If you want to include this plot in a scientific work, refer to the Zenodo DOI above or cite it as follows:
+```
+@software{anno_knierim_2024_11045708,
+  author       = {Anno Knierim},
+  title        = {{aknierim/multi\_messenger\_milky\_way: The 
+                   Multimessenger Milky Way}},
+  month        = apr,
+  year         = 2024,
+  publisher    = {Zenodo},
+  version      = {v1.0},
+  doi          = {10.5281/zenodo.11045708},
+  url          = {https://doi.org/10.5281/zenodo.11045708}
+}
+```
+Please also include the citations in the [Data](#data) section.
