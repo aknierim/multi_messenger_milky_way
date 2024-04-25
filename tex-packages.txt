@@ -1,4 +1,3 @@
-calc
 fira
 firamath
 firamath-otf
@@ -10,6 +9,7 @@ unicode-math
 xfrac
 latex
 latex-bin
+latex-tools
 latexmk
 luacode
 lualatex-math
