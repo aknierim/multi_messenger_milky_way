@@ -9,7 +9,6 @@ unicode-math
 xfrac
 latex
 latex-bin
-latex-tools
 latexmk
 luacode
 lualatex-math
