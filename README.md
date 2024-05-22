@@ -51,8 +51,7 @@ If you want to include this plot in a scientific work, refer to the Zenodo DOI a
 ```
 @software{anno_knierim_2024_11045708,
   author       = {Anno Knierim},
-  title        = {{aknierim/multi\_messenger\_milky\_way: The 
-                   Multimessenger Milky Way}},
+  title        = {{The Multimessenger Milky Way}},
   month        = apr,
   year         = 2024,
   publisher    = {Zenodo},
