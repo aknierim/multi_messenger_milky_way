@@ -1,7 +1,7 @@
 https://lambda.gsfc.nasa.gov/data/foregrounds/haslam_2014/haslam408_dsds_Remazeilles2014.fits
 https://lambda.gsfc.nasa.gov/data/foregrounds/HI/LAB_fullvel.fits
 https://lambda.gsfc.nasa.gov/data/foregrounds/spass/spass_dr1_1902_healpix_Tb.i.fits
-http://cade.irap.omp.eu/documents/Ancillary/EFFELSBERG/EFFELSBERG_11cm_1_2048.fits
+https://cade.irap.omp.eu/documents/Ancillary/Effelsberg/EFFELSBERG_11cm_1_2048.fits
 https://lambda.gsfc.nasa.gov/data/foregrounds/dame_CO/lambda_wco_dht2001.fits
 https://lambda.gsfc.nasa.gov/data/foregrounds/iris/IRIS_nohole_1_1024_v2.fits
 https://lambda.gsfc.nasa.gov/data/foregrounds/iris/IRIS_nohole_3_2048_v2.fits
